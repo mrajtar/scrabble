@@ -10,7 +10,7 @@ export default function ProtectedLayout({ children }) {
 
   useEffect(() => {
     if (!loading && !user) {
-      router.push(`/user/singin?returnUrl=${pathname}`);
+      router.push(`/user/signin?returnUrl=${pathname}`);
     }
   }, [user, loading, pathname, router]);
 
@@ -21,6 +21,8 @@ export default function ProtectedLayout({ children }) {
       </div>
     );
   }
-
+  if (!user) {
+    return null;
+  }
   return <>{children}</>;
 }

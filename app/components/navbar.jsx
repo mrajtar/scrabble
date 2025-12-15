@@ -32,13 +32,13 @@ export default function Navbar() {
             {!user && (
               <>
                 <Link
-                  href="/public/user/signin"
+                  href="/user/signin"
                   className="btn btn-primary btn-sm text-white shadow-md hover:shadow-lg hover:bg-primary-focus transition-all"
                 >
                   Sign in
                 </Link>
                 <Link
-                  href="/public/user/register"
+                  href="/user/register"
                   className="btn btn-primary btn-sm text-white shadow-md hover:shadow-lg hover:bg-primary-focus transition-all"
                 >
                   Register
@@ -48,7 +48,7 @@ export default function Navbar() {
             {user && (
               <>
                 <Link
-                  href="/protected"
+                  href="/game"
                   className="btn btn-ghost btn-sm hover:bg-base-100 transition-colors"
                 >
                   Game
