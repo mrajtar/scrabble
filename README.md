@@ -1,4 +1,4 @@
-https://scrabble-game-7aearphl5-f4lcons-projects-d6f7e688.vercel.app/
+https://scrabble-game-eta.vercel.app/
 
 Projekt komponentu planszy scrabble z funkcjonujacym firebase auth oraz zapisywaniem stanu gry w firestore.
 Komponent przyjmuje dwa parametry:
