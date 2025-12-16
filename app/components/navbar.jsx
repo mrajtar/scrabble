@@ -84,7 +84,7 @@ export default function Navbar() {
               {user && (
                 <>
                   <li>
-                    <Link href="/protected">Game</Link>
+                    <Link href="/game">Game</Link>
                   </li>
                   <li>
                     <button onClick={handleLogout}>Logout</button>
